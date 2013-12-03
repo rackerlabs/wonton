@@ -156,8 +156,12 @@ def spawn_copy(args):
     pool.join()
 
 
-if __name__ == '__main__':
+def main():
     args = handle_args()
     source = create_destination(args)
     populate_queue(source)
     spawn_copy(args)
+
+
+if __name__ == '__main__':
+    main()
