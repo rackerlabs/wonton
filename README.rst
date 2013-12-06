@@ -42,6 +42,9 @@ Ubuntu / Debian
 Usage
 -----
 
+Help
+~~~~
+
 .. code-block::
 
     $ wonton --help
@@ -79,3 +82,10 @@ Usage
                             AWS Access Key ID
       --s3-access-key S3_ACCESS_KEY
                             AWS Access Key
+
+Examples
+~~~~~~~~
+
+.. code-block:: bash
+
+    wonton --from-s3 --s3-container wonton-example --s3-access-id <S3_ACCESS_ID> --s3-access-key <S3_ACCESS_KEY> --cf-container example --cf-username <CF_USERNAME> --cf-password <CF_APIKEY>
