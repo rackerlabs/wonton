@@ -42,7 +42,7 @@ Ubuntu / Debian
 Usage
 -----
 
-.. code-block:: bash
+.. code-block::
 
     $ wonton --help
     usage: wonton [-h] [--version] [--threads THREADS] (--from-s3 | --from-cf)
