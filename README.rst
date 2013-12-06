@@ -1,8 +1,7 @@
 wonton
 ======
 
-Gevent-based, multithreaded tool for bulk transferring S3 to Cloud Files
-or vice versa
+Gevent-based, multithreaded tool for bulk transferring objects from Amazon S3 to Rackspace Cloud Files or vice versa
 
 Installation
 ------------

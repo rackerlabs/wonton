@@ -3,8 +3,9 @@ import setuptools
 setuptools.setup(
     name='wonton',
     version='0.1.0',
-    description=('Gevent-based, multithreaded tool for bulk transferring S3 '
-                 'to Cloud Files or vice versa'),
+    description=('Gevent-based, multithreaded tool for bulk transferring '
+                 'objects from Amazon S3 to Rackspace Cloud Files or vice '
+                 'versa'),
     long_description=open('README.rst').read(),
     keywords='rackspace cloud cloudfiles amazon aws s3',
     author='Matt Martz',
